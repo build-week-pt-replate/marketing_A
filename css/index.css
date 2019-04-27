@@ -11,31 +11,34 @@ html {
 
 nav {
   position: absolute;
-  margin-left: 75%;
+  margin-left: 3%;
+  width: 100%;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
-  padding-right: 10%;
-  text-shadow: 1px 1px 2px rgb(29, 201, 20);
+  padding-right: 3%;
+  text-shadow: 2px 2px 3px rgb(29, 201, 20);
+  /* cursor: pointer; */
   /* opacity: 1; */
 }
 
 h1 {
   font-family: "Satisfy", cursive;
   font-size: 110px;
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px rgb(29, 201, 20);
 }
 
 .story {
-  font-size: 30px;
+  font-size: 40px;
+  line-height: 1.8;
   text-align: center;
   padding-top: 175px;
   padding-right: 300px;
   padding-left: 300px;
-  text-shadow: 1px 1px 2px white;
+  /* text-shadow: 1px 1px 2px rgb(29, 201, 20); */
 }
 
 .pimg1,
