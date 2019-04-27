@@ -9,14 +9,32 @@ html {
   color: #666;
 }
 
+nav {
+  position: absolute;
+  margin-left: 75%;
+}
+
 nav a {
   text-decoration: none;
   font-size: 20px;
+  color: black;
+  padding-right: 10%;
+  text-shadow: 1px 1px 2px rgb(29, 201, 20);
+  /* opacity: 1; */
 }
 
 h1 {
   font-family: "Satisfy", cursive;
   font-size: 110px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.story {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 175px;
+  padding-right: 300px;
+  padding-left: 300px;
   text-shadow: 1px 1px 2px white;
 }
 
@@ -120,5 +138,11 @@ h1 {
   .pimg2,
   .pimg3 {
     background-attachment: scroll;
+  }
+}
+
+@media (max-width: 568px) {
+  nav {
+    /* padding-right: 0%; */
   }
 }
