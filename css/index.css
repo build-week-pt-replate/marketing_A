@@ -11,18 +11,29 @@ html {
 
 nav {
   position: absolute;
-  margin-left: 3%;
-  width: 100%;
+  padding-left: 2%;
+  top: 1%;
+  z-index: 2;
 }
 
 nav a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   color: black;
-  padding-right: 3%;
+  padding-right: 40px;
   text-shadow: 2px 2px 3px rgb(29, 201, 20);
-  /* cursor: pointer; */
-  /* opacity: 1; */
+  cursor: pointer;
+}
+
+a:hover {
+  color: white;
+}
+
+@media (max-width: 568px) {
+  nav a {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
 }
 
 h1 {
@@ -39,6 +50,12 @@ h1 {
   padding-right: 300px;
   padding-left: 300px;
   /* text-shadow: 1px 1px 2px rgb(29, 201, 20); */
+}
+
+@media (max-width: 1300px) {
+  .story {
+    padding: 80px 50px;
+  }
 }
 
 .pimg1,
@@ -60,6 +77,9 @@ h1 {
 .pimg1 {
   background-image: url("../img/fists.jpg");
   min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pimg2 {
@@ -88,7 +108,7 @@ h1 {
 }
 
 .ptext {
-  position: absolute;
+  /* position: absolute; */
   top: 7%;
   width: 100%;
   text-align: center;
@@ -145,7 +165,7 @@ h1 {
 }
 
 @media (max-width: 568px) {
-  nav {
-    /* padding-right: 0%; */
+  h1 {
+    margin-top: 200px;
   }
 }
