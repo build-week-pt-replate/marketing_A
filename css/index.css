@@ -165,8 +165,14 @@ h1 {
 
 /* About Us page ****************************************************/
 
+.container {
+  background-image: url("../img/fork.jpg");
+  min-height: 100%;
+}
+
 .articles {
-  margin-top: 95px;
+  padding-top: 185px;
+  padding-bottom: 50px;
 }
 .article {
   margin: 20px 10%;
