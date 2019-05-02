@@ -21,7 +21,7 @@ nav a {
   font-size: 18px;
   color: white;
   padding-right: 40px;
-  /* text-shadow: 1px 1px 2px white; */
+  text-shadow: 1px 1px 2px black;
   cursor: pointer;
 }
 
@@ -167,7 +167,7 @@ h1 {
 /* About Us page ****************************************************/
 
 .container {
-  background-image: url("../img/fork.jpg");
+  background-color: rgb(25, 109, 21);
   min-height: 100%;
 }
 
@@ -176,7 +176,7 @@ h1 {
   padding-bottom: 50px;
 }
 .article {
-  margin: 20px 10%;
+  margin: 20px 30%;
   padding: 0 20px 25px;
   border: 1px solid lightgrey;
   border-radius: 10px;
@@ -186,15 +186,29 @@ h1 {
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
 }
+
+.devs {
+  height: 20%;
+  width: 20%;
+  margin-top: 20px;
+  /* border: 2px solid black; */
+  border-radius: 4%;
+}
+
 .article h2 {
   font-size: 28px;
   padding: 0;
   margin: 15px 0 0;
 }
-.article .date {
-  margin: 0;
-  font-size: 14px;
+
+.article h3 {
+  font-size: 20px;
 }
+
+.article-text {
+  font-size: 16px;
+}
+
 .article .close {
   position: absolute;
   top: 10px;
@@ -208,7 +222,6 @@ h1 {
   color: grey;
   cursor: pointer;
   transform: translate(-50%);
-  background-color: white;
 }
 .article-open {
   height: auto;
